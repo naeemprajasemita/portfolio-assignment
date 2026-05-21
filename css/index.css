@@ -1,0 +1,157 @@
+.hero {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.hero-name {
+  font-size: 2.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-tagline {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--color-accent);
+  margin-bottom: 1rem;
+}
+
+.hero-desc {
+  color: var(--color-text-soft);
+  max-width: 55ch;
+  margin-bottom: 1.75rem;
+  font-size: 1rem;
+}
+
+.hero-btns {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.roles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.25rem;
+}
+
+.role-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.role-icon {
+  font-size: 1.75rem;
+  line-height: 1;
+}
+
+.role-card h3 {
+  font-size: 1rem;
+}
+
+.role-card p {
+  font-size: 0.88rem;
+  color: var(--color-text-soft);
+}
+
+.exp-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  max-width: 680px;
+}
+
+.exp-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.exp-badge {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.2rem 0.6rem;
+  border-radius: 20px;
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+
+.exp-company {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--color-accent);
+}
+
+.exp-date {
+  font-size: 0.82rem;
+  color: var(--color-text-soft);
+}
+
+.exp-desc {
+  font-size: 0.9rem;
+  color: var(--color-text-soft);
+}
+
+.exp-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.25rem;
+}
+
+.featured-card {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  max-width: 720px;
+}
+
+.featured-icon {
+  font-size: 2.75rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.featured-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.featured-body h3 {
+  font-size: 1.2rem;
+}
+
+.featured-body p {
+  font-size: 0.9rem;
+  color: var(--color-text-soft);
+}
+
+.featured-body .btn {
+  align-self: flex-start;
+  margin-top: 0.25rem;
+}
+
+.home-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+@media (max-width: 640px) {
+  .roles-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .featured-card {
+    flex-direction: column;
+  }
+
+  .hero-name {
+    font-size: 1.75rem;
+  }
+}

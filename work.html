@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Work — Naeem Prajasemita</title>
+  <meta name="description" content="Projects by Naeem Prajasemita — web development, Java, and more." />
+
+  <link rel="stylesheet" href="./css/main.css" />
+
+  <link rel="stylesheet" href="./css/work.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="./index.html" class="nav-logo">NP<span>.</span></a>
+
+      <button class="nav-menu-btn" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./work.html">Work</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="work-header">
+    <div class="container">
+      <h1>My Projects</h1>
+      <p>Things I've built at school and on my own time. Each project taught me something new.</p>
+    </div>
+  </div>
+
+
+  <main>
+    <section class="section">
+      <div class="container">
+
+
+        <div class="projects-grid" id="projects-grid">
+
+          <article class="project-card" data-category="school">
+
+            <div class="project-icon">🗑️</div>
+
+            <h3>Smart Bin</h3>
+
+            <p>
+              An automated waste sorting system that detects and classifies rubbish into
+              three categories — metal, plastic, and organic — and physically sorts them
+              into the correct bins using sensors and a motorized mechanism. Designed to reduce manual sorting and encourage recycling.
+            </p>
+
+            <div class="project-tags">
+              <span class="tag">Automation</span>
+              <span class="tag">Sensors</span>
+              <span class="tag">Java</span>
+              <span class="tag">Hardware</span>
+              <span class="tag">Sustainability</span>
+            </div>
+
+          </article>
+
+
+          <article class="project-card" data-category="web">
+            <div class="project-icon">💼</div>
+            <h3>Personal Portfolio Website</h3>
+            <p>
+              This portfolio — built from scratch with plain HTML, CSS, and JavaScript
+              as part of my frontend development coursework. Fully responsive and
+              works on desktop, tablet, and mobile.
+            </p>
+            <div class="project-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">Responsive</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/naeemprajasemita/portfolio-assignment" target="_blank" rel="noopener">GitHub →</a>
+              <a href="https://naeemprajasemita.github.io/portfolio-assignment/" target="_blank" rel="noopener">Live Site →</a>
+            </div>
+          </article>
+
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="footer-name">Naeem Prajasemita</span>
+      <ul class="footer-links">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./work.html">Work</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+      <p class="footer-copy">© <span id="footer-year"></span> Naeem Prajasemita</p>
+    </div>
+  </footer>
+
+
+  <script src="./js/main.js"></script>
+  <script src="./js/work.js"></script>
+
+</body>
+</html>
